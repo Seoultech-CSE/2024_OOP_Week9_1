@@ -58,8 +58,9 @@ public class Queue {
         for(int i = 0; i < 3; i++) {
             System.out.print(queue.dequeue() + " ");
         }
+        System.out.println();
 
-        System.out.print("current length : " + queue.getSize());
+        System.out.println("current length : " + queue.getSize());
 
         System.out.println("dequeueing the rest of the queue...");
 
