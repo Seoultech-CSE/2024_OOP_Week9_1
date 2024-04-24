@@ -11,3 +11,14 @@ public int getSize();
 
 * 참고 1 : 내부 변수 int[] elements, int size와 미리 완성된 생성자 메소드가 있습니다.
 * 참고 2 : enqueue() 메소드는 큐 내부만을 변경하고, dequeue() 메소드는 큐 내부 변경과 함께 빠져나온 아이템을 반환합니다.
+* 참고 3 : 미리 완성된 main 문에서 3번의 dequeue 연산을 수행하므로, 테스트 시 숫자는 3~4개 이상으로 입력해주시기 바랍니다.
+
+
+```
+Input Numbers : 1 4 2 8 5 7
+dequeue 3 elements : 1 4 2
+current length : 4
+dequeueing the rest of the queue...
+8 5 7
+
+```
