@@ -17,7 +17,7 @@ public int getSize();
 ```
 Input Numbers : 1 4 2 8 5 7
 dequeue 3 elements : 1 4 2
-current length : 4
+current length : 3
 dequeueing the rest of the queue...
 8 5 7
 
